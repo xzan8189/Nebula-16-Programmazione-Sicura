@@ -11,20 +11,18 @@ The way to bypass this is to exploit the bash wildcard expansion:
 
 # 🏁 How to use
 
-### Download Nebula
+### 📥 Download Nebula
 You can download Nebula [here](https://exploit.education/downloads/).
 
-### How to start
+### 📍 How to start
 Log in to the virtual machine as **username** "levelXX" with a **password** of "levelXX" (without quotes), where XX is the level number. Some levels can be done purely remotely.
 
-### Get Root permissions (optional)
+### 🩺 Get Root permissions (optional)
 In case you need root access to change things (like key mappings, etc.), then you can log in with the following credentials:
 * **Username** = "nebula" 
 * **Password** = "nebula".
 
 You will then have root privileges to change what needs.
 
-### Source code
+### 📝 Source code
 The source code can be viewed [here](https://github.com/xzan8189/Nebula-16-Programmazione-Sicura/)
-
-### Complete guide of the challenge
