@@ -8,3 +8,18 @@ The way to bypass this is to exploit the bash wildcard expansion:
 1. We can create an exploit and place it in */tmp/* folder where both the **level16** and **flag16** users have read and write access to. 
 2. We can name our exploit file in all caps or numbers(eg A123BCD). When we supply the username parameter like /*/A123BCD the uppercase won’t affect it, and the bash wildcard will find only 1 file which is our exploit in /tmp/ that matches the pattern. 
 3. Inside the exploit we can place a reverse shell to our machine and execute **getflag**.
+
+# 🏁 How to use
+
+### Download Nebula
+You can download Nebula [here](https://exploit.education/downloads/).
+
+### How to start
+Log in to the virtual machine as **username** "levelXX" with a **password** of "levelXX" (without quotes), where XX is the level number. Some levels can be done purely remotely.
+
+### Get Root permissions
+In case you need root access to change things (like key mappings, etc.), then you can log in with the following credentials:
+* **Username** = "nebula" 
+* **Password** = "nebula".
+
+You will then have root privileges to change what needs.
