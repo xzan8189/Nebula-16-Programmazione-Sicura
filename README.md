@@ -22,7 +22,7 @@ In case you need root access to change things (like key mappings, etc.), then yo
 * **Username** = "nebula" 
 * **Password** = "nebula".
 
-You will then have root privileges to change what needs.
+Then you need to type "sudo -s" and you will then have root privileges to change what needs.
 
 ### 📝 Source code
 The source code can be viewed [here](https://github.com/xzan8189/Nebula-16-Programmazione-Sicura/)
