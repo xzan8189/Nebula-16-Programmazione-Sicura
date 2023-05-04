@@ -11,11 +11,12 @@ sub login {
   $username =~ tr/a-z/A-Z/; # conver to uppercase
   $username =~ s/\s.*//;        # strip everything after a space
  
-  
+  # ----- New lines -----
   if (!($username =~ /^[a-zA-Z0-9_]{4,15}$/)) {
   	print("Username non valido");
 	return 0;
   }
+  # -------------------
 
   @output = `egrep "^$username" /home/flag16/userdb.txt 2>&1`;
   foreach $line (@output) {
