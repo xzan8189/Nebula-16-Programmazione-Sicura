@@ -1,4 +1,5 @@
 # ✍ Nebula-16-Programmazione-Sicura
+**Authors**: *Marrazzo Vincenzo* & [*Spagna Zito Marika*](https://github.com/marikaspagnazito)
 
 This challenge is another variation of command injection exploit. The web service is running on port **1616**, and the source code is provided to us for reference. We can use netcat to connect to this service.
 
